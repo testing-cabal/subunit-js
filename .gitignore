@@ -1,0 +1,7 @@
+# Project-specific ignores
+node_modules
+
+# Editors
+*~
+.*.swp
+.*sw?

@@ -1,0 +1,31 @@
+{
+  "name": "node-subunit",
+  "version": "0.0.1",
+  "description": "Subunit stream I/O for Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "subunit"
+  ],
+  "author": "OpenStack <openstack-dev@lists.openstack.org> (http://www.openstack.org/)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^1.5.1",
+    "eslint-config-openstack": "^1.2.4"
+  },
+  "dependencies": {
+    "bl": "^1.1.2",
+    "buffer-crc32": "^0.2.5"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "subunit-stream.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timothyb89/node-subunit"
+  }
+}
