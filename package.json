@@ -1,5 +1,5 @@
 {
-  "name": "node-subunit",
+  "name": "subunit-js",
   "version": "0.0.1",
   "description": "Subunit stream I/O for Node",
   "main": "index.js",
@@ -26,6 +26,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/timothyb89/node-subunit"
+    "url": "https://github.com/testing-cabal/subunit-js"
   }
 }

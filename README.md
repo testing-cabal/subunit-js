@@ -1,5 +1,5 @@
-node-subunit
-============
+subunit-js
+==========
 
 Provides utilities for reading and writing
 [Subunit streams](https://github.com/testing-cabal/subunit) with Node.js,
@@ -8,7 +8,7 @@ targeting Node versions 0.10 (pre-packaged on Ubuntu Trusty) and higher.
 Installation
 ------------
 
-    npm install --save node-subunit
+    npm install --save subunit-js
 
 Usage
 -----
@@ -51,7 +51,7 @@ outputs objects as described above. To read a file `testrepository.subunit`:
 
 ```javascript
 var fs = require('fs');
-var subunit = require('node-subunit');
+var subunit = require('subunit-js');
 
 fs.createReadStream('testrepository.subunit')
     .pipe(new subunit.SubunitToObjectStream())
